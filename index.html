@@ -10,7 +10,29 @@
   <!-- Bootstrap-css  -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
   <!-- Custom Css  -->
-  <link rel="stylesheet" href="css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    body{
+      font-family: 'Poppins', sans-serif;
+    }
+    .carousel-item img{
+      min-height: 500px;
+    }
+    .carousel-item:after {
+      content:"";
+      display:block;
+      position:absolute;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      background:rgba(0,0,0,0.5);
+      z-index: 1;
+    }
+    .carousel-caption{
+      z-index: 2;
+    }
+  </style>
 
 </head>
 <body>
