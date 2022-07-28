@@ -5,7 +5,9 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
-
+.carousel-item img{
+  min-height: 400px;
+}
 .carousel-item:after {
   content:"";
   display:block;
@@ -20,3 +22,15 @@ body{
 .carousel-caption{
   z-index: 2;
 }
+ /* @media (min-width: 576px){
+  .course-img img{
+    width: 100%;
+  }
+} */
+@media (min-width: 768px){
+  .course-img img{
+    width: 200px;
+    height: 200px;
+    display: block;
+  }
+} 
