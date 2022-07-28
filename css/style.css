@@ -22,10 +22,10 @@ body{
 .carousel-caption{
   z-index: 2;
 }
-@media (min-width: 768px){
+/* @media (min-width: 768px){
   .course-img img{
     width: 200px;
     height: 200px;
     display: block;
   }
-} 
+}  */
