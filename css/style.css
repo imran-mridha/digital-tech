@@ -6,7 +6,7 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 .carousel-item img{
-  min-height: 400px;
+  min-height: 500px;
 }
 .carousel-item:after {
   content:"";
