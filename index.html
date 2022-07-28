@@ -42,7 +42,38 @@
                 <a class="nav-link" href="#">Success </a>
               </li>
             </ul>
-              <button class="btn btn-outline-success fw-bold" type="submit">Register</button>
+            <button type="button" class="btn btn-lg btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Register Now
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Register Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
@@ -95,9 +126,9 @@
   <!-- Header-Section-End  -->
 
   <!-- Main-Content-Start  -->
-  <main class="py-5 my-lg-5 container">
+  <main class="my-5 my-lg-5 container">
     <!-- Courses-Section  -->
-    <section class="course-section my-3">
+    <section class="course-section my-5">
       <div class="section-title text-center">
         <div class="col-12 col-md-8 mx-auto">
           <h2 class="display-6 fw-bold">Discover Our Popular <br> Courses</h2>
@@ -203,7 +234,7 @@
       </div>
     </section>
     <!-- About-Section  -->
-    <section class="about-section my-3">
+    <section class="about-section my-5">
       <div class="row g-0">
         <div class="col-12 col-md-6">
           <img class="img-fluid h-100" src="images/working.png" alt="">
@@ -226,6 +257,50 @@
                 <div class="col-6 col-lg-4">
                   <h2 class="fw-bold">1k+</h2>
                   <p class="">Rating & Review</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Registration-Section  -->
+    <section class="registration-section my-5 bg-success text-center text-lg-start">
+      <div class="row d-flex p-5 gx-5 align-items-center">
+        <div class="col-12 col-lg-9 text-light">
+          <h2 class="fw-bold mb-3">Ready to join?</h2>
+          <p class="pe-lg-5 me-lg-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
+        <div class="col-12 col-lg-3">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-lg text-success fw-bold btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Register Now
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-success">Register Now</button>
                 </div>
               </div>
             </div>
